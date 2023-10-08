@@ -1,0 +1,95 @@
+body{
+    background: radial-gradient(circle, #f8dbef, #e74c3c);
+    
+    justify-content: center;
+}
+.container{
+    display:grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 10px 20px ;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+button:active{
+    background-color: rgb(149, 145, 140);
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.result{
+    margin: 10px;
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px ;
+}
+.reset,.sound{
+    width: fit-content;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 10px;
+    
+    border-color: rgb(246, 157, 157);
+}
+.win{
+    background-color: rgb(65, 236, 65);
+    color: azure;
+}
+.game-over{
+    pointer-events: none;
+    opacity: 0.5;
+}
+.box{
+    border-color: rgb(225, 181, 123);
+}
+hr{
+    width: 70%;
+    height: 3px;
+    background: rgb(86, 53, 53);
+}
+hr.start{
+    width: 40%;
+}
+.navbar{
+    background: rgb(55, 46, 46);
+    margin: -10px;
+    padding: 10px;
+}
+a:hover{
+    color: rgb(152, 173, 90);
+}
+img{
+    width: 20px;
+    background-color: #f8dbef;
+    margin-left: 20px;
+}
+img:hover{
+    pointer-events: visible;
+    background-color: #e74c3c;
+}
